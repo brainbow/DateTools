@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'DateTools'
-  s.version      = '2.0.4'
+  s.version      = '2.0.5'
   s.summary      = 'Dates and time made easy in Objective-C'
   s.homepage     = 'https://github.com/brainbow/DateTools.git'
 
@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.source_files = 'DateTools/DateTools'
+  s.source_files = 'DateTools/DateTools/*.{h,m}'
   s.resources    = 'DateTools/DateTools/DateTools.bundle'
 end
